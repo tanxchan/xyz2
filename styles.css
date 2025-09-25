@@ -18,7 +18,7 @@ body{
     margin:0;
 }
 *{
-    font-family: 'Geist Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .menu{
     position:fixed;
@@ -239,6 +239,8 @@ h3, h4{
         width:calc(100vw - 1rem);
     }
     section{
+        margin-top:0;
+        padding-top:0;
         width:100%;
     }
 }
