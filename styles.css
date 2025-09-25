@@ -289,7 +289,8 @@ h3, h4{
         word-break: break-all;
     }
     .resume{
-        width:calc(100% - 2rem);
+        width:calc(100% - 4rem);
+        margin:1rem;
         text-align: center; 
         flex-wrap: wrap;
     }
