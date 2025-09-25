@@ -273,10 +273,25 @@ h3, h4{
     }
 }
 @media (max-width:480px) {
-    .about-me{
+    .about-me, .about-left h1, .about-me .about-right h2{
+        max-width: 100%;
         display:flex;
         flex-direction:column;
         align-items: start;
+        overflow-wrap: break-word;
+        word-break: break-all;
+    }
+    .about-me{
+        height:fit-content;
+    }
+    .heading{
+        width:calc(100% - 1rem);
+        word-break: break-all;
+    }
+    .resume{
+        width:calc(100% - 2rem);
+        text-align: center; 
+        flex-wrap: wrap;
     }
 }
 
