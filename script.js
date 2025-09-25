@@ -11,3 +11,5 @@ let b = document.getElementsByClassName('business');
 for (let i = 0; i<b.length;i++){
     b[i].addEventListener('click', ()=>{document.getElementsByClassName('businesses')[0].scrollIntoView()})
 }
+
+document.onscroll
