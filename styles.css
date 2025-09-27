@@ -256,6 +256,9 @@ h3, h4{
 }
 
 @media (max-width:640px) {
+    .about-me{
+        background-image: url("./images/small-one.jpg");
+    }
     .menu{
         flex-direction: column;
         width:fit-content;
