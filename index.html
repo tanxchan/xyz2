@@ -189,45 +189,52 @@
             <h2 class="heading">Projects</h2>
             <div class="project-container">
                 <div class="card project-card">
-                    <div class="prcard1">
-                        <h3>
-                            Marketing Automation
-                        </h3>
-                        <h4>
-                            DECA VBC
-                        </h4>
-                        <picture>
-                            <img class="project-ss" src="./images/VBC.png">
-                        </picture>
+                  <div class="prcard1">
+                    <h3>
+                      BDO x Net Impact Case Competition
+                    </h3>
+                    <h4>
+                      <!-- Optional: put organizer/school/club here (or delete this h4) -->
+                      1st out of 37 teams
+                    </h4>
+              
+                    <!-- Optional screenshot: replace src with your image, or remove the whole <img> -->
+                    <img class="project-ss" src="./images/Voltdrive.png" alt="Case competition slide preview">
+                  </div>
+              
+                  <div class="prcard2">
+                    <p class="card-desc">
+                      Analyzed an open-ended business problem under time constraints and built a data-backed recommendation.
+                      Structured the approach using consulting frameworks, supported conclusions with quantitative analysis,
+                      and synthesized findings into an executive-ready deck delivered to judges.
+                    </p>
+              
+                    <!-- Replace href with your deck / PDF / notion / github -->
+                    <a href="./public/VoltDrive Motors Final.pdf" target="_blank">View Project</a>
+              
+                    <div class="skills-wrapper">
+                      <div class="skill-container business">
+                        Strategy
+                      </div>
+                      <div class="skill-container business">
+                        Market Sizing
+                      </div>
+                      <div class="skill-container business">
+                        Financial Modeling
+                      </div>
+                      <div class="skill-container business">
+                        Powerpoint
+                      </div>
+                      <div class="skill-container data-sci">
+                        Data Analysis
+                      </div>
+                      <div class="skill-container language">
+                        Python
+                      </div>
                     </div>
-                    <div class="prcard2">
-                        <p class="card-desc">
-                            Used PyAutoGUI, PIL, and OpenCV to automate advertisement budgeting for the DECA Virtual Busines Challenge. 
-                            Took advantage of simulated poll data to optimize target audiences for market using Excel. 
-                        </p>
-                        <a href="" target="_blank">View Project</a>
-                        <div class="skills-wrapper">
-                            <div class="skill-container language">
-                                Python
-                            </div>
-                            <div class="skill-container data-sci">
-                                Pandas
-                            </div>
-                            <div class="skill-container data-sci">
-                                Numpy
-                            </div>
-                            <div class="skill-container business">
-                                Excel
-                            </div>
-                            <div class="skill-container business">
-                                Marketing
-                            </div>
-                            <div class="skill-container business">
-                                Managerial Accounting
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>              
             </div>
             <div class="project-container">
                 <div class="card project-card">
@@ -243,7 +250,7 @@
                     <div class="prcard2">
                         <p class="card-desc">
                             Used Excel to showcase and compare cost allocation methods. Discussed their relation to corporate governance.
-                            Implemented a novel "Lattice Allocation" method<a href="https://doi.org/10.1016/j.adiac.2017.07.008">(Bent, Caplan 2017)</a> based on matrix principles of Linear Algebra. 
+                            Implemented a novel "Lattice Allocation" method <a href="https://doi.org/10.1016/j.adiac.2017.07.008">(Bent, Caplan 2017)</a> based on matrix principles of Linear Algebra. 
                             Results were within 0.1% error after only 3 operations.
                         </p>
                         <a href="./public/lattice_allocation.pdf" target="_blank">View Project</a>
@@ -265,28 +272,29 @@
                 <div class="card project-card">
                     <div class="prcard1">
                         <h3>
-                            Statistical Tools
+                            Mathematical Computing Suite
                         </h3>
                         <!-- <h4>
                             Linear Algebra
                         </h4> -->
                         <picture>
-                            <source media="(max-width: 640px)" srcset="./images/CLT_convolution_mobile.gif">
-                            <img class="project-ss" src="./images/CLT_convolution.gif">
+                            <source media="(max-width: 640px)" srcset="./images/black_scholes.gif">
+                            <img class="project-ss" src="./images/black_scholes.gif">
                         </picture>
                     </div>
                     <div class="prcard2">
                         <p class="card-desc">
-                            Developed a custom toolkit for chi-squared, t, and z distributions with CDFs and inverse functions.
-                            Streamlined hypothesis testing and probability calculations. Automated spreadsheet data analytics using Python.
+                            Designed a lightweight mathematical computing library for symbolic-style function representation, numerical evaluation, and statistical analysis. 
+                            Implemented a tree-based expression engine supporting differentiation, Taylor approximations, and probability utilities to streamline quantitative experimentation and modeling.
+                            Implemented probability utilities (PDFs, CDFs, inverse-CDF tables) using numerical integration and error-controlled approximations.
                         </p>
-                        <a href="about:blank" target="_blank">View Project</a>
+                        <a href="https://github.com/tanxchan/math_suite" target="_blank">View Project</a>
                         <div class="skills-wrapper">
                             <div class="skill-container language">
                                 Python
                             </div>
-                            <div class="skill-container language">
-                                R
+                            <div class="skill-container data-sci">
+                                Linear Algebra
                             </div>
                             <div class="skill-container data-sci">
                                 Pandas
@@ -300,8 +308,48 @@
                             <div class="skill-container data-sci">
                                 Scipy
                             </div>
-                            <div class="skill-container business">
-                                Excel
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="card project-card">
+                    <div class="prcard1">
+                        <h3>
+                            Neural Network Simulator & Visualizer
+                        </h3>
+                        <!-- <h4>
+                            Linear Algebra
+                        </h4> -->
+                        <picture>
+                            <source media="(max-width: 640px)" srcset="./images/neural_net.gif">
+                            <img class="project-ss" src="./images/neural_net.gif">
+                        </picture>
+                    </div>
+                    <div class="prcard2">
+                        <p class="card-desc">
+                            Developed an experimental neural-network framework from scratch with explicit backpropagation and graph-based visualization. 
+                            Combined physics-inspired graph dynamics with gradient and stochastic optimization methods. Built multiple training strategies including gradient descent, Metropolis-Hastings random walk, and Monte-Carlo–style sampling.
+                        </p>
+                        <a href="https://github.com/tanxchan/neural_net_test" target="_blank">View Project</a>
+                        <div class="skills-wrapper">
+                            <div class="skill-container language">
+                                Python
+                            </div>
+                            <div class="skill-container data-sci">
+                                Optimization
+                            </div>
+                            <div class="skill-container data-sci">
+                                Machine Learning
+                            </div>
+                            <div class="skill-container data-sci">
+                                Matplotlib
+                            </div>
+                            <div class="skill-container data-sci">
+                                Numpy
+                            </div>
+                            <div class="skill-container data-sci">
+                                Scipy
                             </div>
                         </div>
                     </div>
@@ -314,13 +362,13 @@
                             Hausdorff Fractal Dimension Calculator
                         </h3>
                         <h4>
-                            Montgomery Blair Math Team
+                            Independent Research Project
                         </h4>
                         <img class="project-ss" src="./images/fractal_series.gif">
                     </div>
                     <div class="prcard2">
-                        <p class="card-desc">Built a recursive algorithm–based simulator to generate fractals and compute Hausdorff dimensions via box-counting.
-                            Applied fractal analysis to natural features (e.g. coastlines and borders) for quantitative modeling and visualization. Achieved >0.6% error on known fractals.
+                        <p class="card-desc">Designed & implemented a recursive algorithm–based simulator to generate fractals and compute Hausdorff dimensions via box-counting.
+                            Applied fractal analysis to natural features (e.g. coastlines and borders) for quantitative modeling and visualization. Achieved &lt;0.6% error on known fractals.
                         </p>
                         <a href="https://github.com/tanxchan/Fractals" target="_blank">View Project</a>
                         <div class="skills-wrapper">
@@ -355,6 +403,9 @@
                         HTML/CSS
                     </div>
                     <div class="skill-container language">
+                        TailwindCSS
+                    </div>
+                    <div class="skill-container language">
                         Javascript
                     </div>
                     <div class="skill-container language">
@@ -362,6 +413,9 @@
                     </div>
                     <div class="skill-container language">
                         React
+                    </div>
+                    <div class="skill-container language">
+                        Nextjs
                     </div>
                     <div class="skill-container language">
                         C++
@@ -384,6 +438,15 @@
                 <h2 class="skill-head data-scis">Data Science</h2>
                 <div class="skills-wrapper">
                     <div class="skill-container data-sci">
+                        Optimization
+                    </div>
+                    <div class="skill-container data-sci">
+                        Linear Algebra
+                    </div>
+                    <div class="skill-container data-sci">
+                        Simulation
+                    </div>
+                    <div class="skill-container data-sci">
                         Python
                     </div>
                     <div class="skill-container data-sci">
@@ -397,6 +460,12 @@
                     </div>
                     <div class="skill-container data-sci">
                         Matplotlib
+                    </div>
+                    <div class="skill-container data-sci">
+                        Scipy
+                    </div>
+                    <div class="skill-container data-sci">
+                        Scikit Learn
                     </div>
                     <div class="skill-container data-sci">
                         Pillow(PIL)
@@ -438,7 +507,7 @@
         </section>
         <!-- <div class="filler"></div> -->
         <footer>
-            <p>©Tiancheng Shao 2025</p>
+            <p>©Tiancheng Shao 2026</p>
         </footer>
         <script src="script.js" async defer></script>
     </body>
